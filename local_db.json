@@ -1,0 +1,657 @@
+{
+  "users": [
+    {
+      "name": "as",
+      "email": "tta@gmail.com",
+      "password": "$2b$10$rPYHxaQhTbpqiwoi3HHzveoBR1OoEX/IRpuIitUWPkiHCqPcJtiyy",
+      "_id": "local_1779341482190"
+    },
+    {
+      "name": "nidhi",
+      "email": "nidhi@gmail.com",
+      "password": "$2b$10$.3dz0fOdhuPRu7R0peJrqeFRrZ4rfLs/VAn77s.PAaoSS3Irwj9bO",
+      "_id": "local_1779342715149"
+    },
+    {
+      "name": "main",
+      "email": "main@gmail.com",
+      "password": "$2b$10$bNYHrrqqPdiTINChL3vGgugBTT3PpdcRLzHj45s61rJu9SqSZQRKa",
+      "_id": "local_1779344577643"
+    },
+    {
+      "name": "master",
+      "email": "master@gmail.com",
+      "password": "$2b$10$pab2sNMW/.Z0wlUpJM3q1e4Oa2bcTHt6w84c7RzZgXOCOlhRE6OqC",
+      "_id": "local_1779347355666"
+    }
+  ],
+  "chats": [
+    {
+      "userId": "local_1779341482190",
+      "userMessage": "give me 5 project ideas",
+      "aiReply": "To give you the best ideas, I have categorized these by \"type\" so you can pick something that matches your current skill level or interests.\n\n### 1. The \"Productivity\" Project: Habit Tracker App\n*   **The Idea:** Build a minimalist app where users can track daily habits (e.g., \"Read 20 mins,\" \"Drink water\").\n*   **Why it’s great:** It covers the \"CRUD\" basics (Create, Read, Update, Delete). You can challenge yourself by adding features like streak counters, visual progress charts, or data persistence (saving to a database).\n*   **Tech Stack:** React/Vue (Frontend), Firebase or Node/Express + MongoDB (Backend).\n\n### 2. The \"Real-World Data\" Project: Price Comparison Tool\n*   **The Idea:** Create a web scraper (using Python/BeautifulSoup or Puppeteer) that monitors the price of a specific item across multiple e-commerce sites and sends an email notification when the price drops below a certain point.\n*   **Why it’s great:** You learn about web scraping, handling asynchronous tasks, and automation. It solves a tangible problem.\n*   **Tech Stack:** Python (Scrapy/Playwright), Node.js (for the automation script), SendGrid (for emails).\n\n### 3. The \"Creative\" Project: Personal Portfolio with a Twist\n*   **The Idea:** Instead of a standard static site, build a 3D portfolio using **Three.js** or **React Three Fiber**. Make it an interactive \"room\" or a 3D map where users can click on objects to view your projects.\n*   **Why it’s great:** It makes your portfolio stand out instantly to recruiters and teaches you high-end web animation and 3D web development.\n*   **Tech Stack:** Three.js, React, Tailwind CSS.\n\n### 4. The \"AI/ML\" Project: Custom Image Classifier\n*   **The Idea:** Train a machine learning model to categorize specific types of images. For example: \"Is this photo a houseplant or a pet?\" or \"Identify the breed of dog.\"\n*   **Why it’s great:** It introduces you to the world of AI/ML without needing a PhD. You can use a pre-trained model (like MobileNet) and \"fine-tune\" it with your own dataset.\n*   **Tech Stack:** TensorFlow.js or PyTorch, Google Colab (for training).\n\n### 5. The \"Community\" Project: Anonymous Feedback/Q&A Board\n*   **The Idea:** Build a platform where users can post questions or feedback anonymously for a specific group (like a classroom or team). Include upvoting features to highlight the most important questions.\n*   **Why it’s great:** It forces you to think about security, authentication, and real-time updates. If you want a challenge, use **WebSockets** (Socket.io) to make the upvotes update live without refreshing the page.\n*   **Tech Stack:** Next.js, Supabase (for database + auth), Socket.io.\n\n---\n\n**How to choose?**\n*   **If you want a job:** Build the **Habit Tracker** or the **Feedback Board**; these show you can build professional, reliable software.\n*   **If you want to have fun/impress:** Go with the **3D Portfolio**.\n*   **If you want to learn high-demand skills:** Go with the **Price Comparison Tool** (data handling) or the **AI Classifier**.\n\n**Which one sounds most interesting to you? I can help you outline the steps to get started on any of them!**",
+      "createdAt": "2026-05-21T05:50:43.428Z"
+    },
+    {
+      "userId": "local_1779342715149",
+      "userMessage": "give me 5 project ideas",
+      "aiReply": "To give you the best ideas, I have categorized these by \"type.\" Depending on your interests, you can pick the one that fits your skill set or learning goals:\n\n### 1. The \"Productivity\" Project: Personal Dashboard\n*   **The Idea:** Build a centralized web dashboard that pulls in data you care about.\n*   **What it does:** It could display your daily calendar, the current weather, a \"quote of the day,\" a news feed for your favorite topic, and a habit tracker.\n*   **Why it’s great:** It forces you to work with APIs (Weather API, Google Calendar API, News API), practice UI/UX design, and create something you will actually use every day.\n\n### 2. The \"Automator\" Project: File Organizer Bot\n*   **The Idea:** Create a script that watches a specific folder (like your \"Downloads\" folder) and automatically moves files into subfolders based on their extension.\n*   **What it does:** If a file ends in `.pdf`, it moves to a \"Documents\" folder; if it’s `.jpg` or `.png`, it moves to \"Images.\" You can even add logic to delete files older than 30 days.\n*   **Why it’s great:** It teaches you file system manipulation and automation logic. It is a massive \"quality of life\" upgrade for your computer.\n\n### 3. The \"AI\" Project: Custom Knowledge Chatbot\n*   **The Idea:** Build a chatbot that is \"trained\" on a specific set of documents (like a favorite book, your personal notes, or a specific technical manual).\n*   **What it does:** Using tools like OpenAI’s API (or open-source alternatives like Ollama) and a framework like LangChain, the bot answers questions based *only* on the documents you provide.\n*   **Why it’s great:** It gets you hands-on with \"Retrieval-Augmented Generation\" (RAG), which is the most sought-after skill in AI development right now.\n\n### 4. The \"Data\" Project: Trend Tracker\n*   **The Idea:** Pick a topic you are interested in (e.g., video game prices, stock tickers, or local housing prices) and build a web scraper to collect that data once a day.\n*   **What it does:** Store the data in a simple database (like SQLite) and use a library like `Pandas` or `Chart.js` to visualize the trends on a graph.\n*   **Why it’s great:** It teaches you the full lifecycle of data: scraping, storage, processing, and visualization.\n\n### 5. The \"Community\" Project: \"Neighbor-Share\" App\n*   **The Idea:** Create a simple marketplace app where people in a specific apartment building or neighborhood can lend tools or items (e.g., a power drill, a ladder, a cake pan) to each other.\n*   **What it does:** Users log in, list items they are willing to lend, and see items others have made available.\n*   **Why it’s great:** It is a classic \"Full Stack\" project. You’ll need a database (User accounts), a frontend (Displaying items), and backend logic (Handling requests/status of items).\n\n---\n\n**How to choose?**\n*   **If you want to get hired:** Pick #3 (AI/RAG) or #5 (Full Stack).\n*   **If you want to learn automation:** Pick #2.\n*   **If you want a cool personal tool:** Pick #1 or #4.\n\n**Do any of these catch your eye? If you tell me which one (or what your coding experience is), I can help you break it down into smaller steps!**",
+      "createdAt": "2026-05-21T06:22:10.519Z"
+    }
+  ],
+  "projects": [
+    {
+      "userId": "local_1779342715149",
+      "id": 1779342761884,
+      "createdAt": "2026-05-21T05:52:41.884Z",
+      "title": "High-Scalability Distributed E-Commerce Architecture",
+      "description": "A microservices-based, event-driven architecture designed for high availability, transactional integrity, and global scale.",
+      "techStack": {
+        "frontend": [
+          "Next.js 14",
+          "TypeScript",
+          "Tailwind CSS",
+          "TanStack Query",
+          "Zustand"
+        ],
+        "backend": [
+          "Node.js (NestJS)",
+          "Go (Order Service)",
+          "Python (Recommendations)",
+          "gRPC",
+          "GraphQL"
+        ],
+        "database": [
+          "PostgreSQL (Relational)",
+          "Redis (Caching)",
+          "Elasticsearch (Search)",
+          "MongoDB (Product Catalog)"
+        ]
+      },
+      "architecture": [
+        "API Gateway (Kong/Ocelot)",
+        "Microservices (User, Cart, Order, Inventory, Payment)",
+        "Event Bus (Apache Kafka)",
+        "CDN (CloudFront/Cloudflare)",
+        "CI/CD Pipeline (GitHub Actions/ArgoCD)"
+      ],
+      "flow": [
+        "User Request -> API Gateway -> Auth Service",
+        "Order Placement -> Inventory Validation -> Payment Gateway -> Event Bus (Order Created Event)",
+        "Event Bus -> Notification Service / Shipping Service"
+      ],
+      "database": [
+        "Users (id, email, hash, role, profile_data)",
+        "Products (id, sku, name, price, stock_count, attributes, category_id)",
+        "Orders (id, user_id, status, total_amount, metadata, created_at)",
+        "Payments (id, order_id, transaction_ref, status, provider)"
+      ],
+      "features": [
+        "Real-time inventory management with pessimistic locking",
+        "Distributed transaction support using Saga pattern for order fulfillment",
+        "Elasticsearch-powered full-text search with faceted navigation",
+        "Global CDN edge caching for static assets and product listing pages",
+        "Asynchronous order processing and email notification workflows"
+      ]
+    },
+    {
+      "userId": "local_1779342715149",
+      "id": 1779342771477,
+      "createdAt": "2026-05-21T05:52:51.477Z",
+      "title": "High-Scalability Distributed E-Commerce Architecture",
+      "description": "A microservices-based, event-driven architecture designed for high availability, transactional integrity, and global scale.",
+      "techStack": {
+        "frontend": [
+          "Next.js 14",
+          "TypeScript",
+          "Tailwind CSS",
+          "TanStack Query",
+          "Zustand"
+        ],
+        "backend": [
+          "Node.js (NestJS)",
+          "Go (Order Service)",
+          "Python (Recommendations)",
+          "gRPC",
+          "GraphQL"
+        ],
+        "database": [
+          "PostgreSQL (Relational)",
+          "Redis (Caching)",
+          "Elasticsearch (Search)",
+          "MongoDB (Product Catalog)"
+        ]
+      },
+      "architecture": [
+        "API Gateway (Kong/Ocelot)",
+        "Microservices (User, Cart, Order, Inventory, Payment)",
+        "Event Bus (Apache Kafka)",
+        "CDN (CloudFront/Cloudflare)",
+        "CI/CD Pipeline (GitHub Actions/ArgoCD)"
+      ],
+      "flow": [
+        "User Request -> API Gateway -> Auth Service",
+        "Order Placement -> Inventory Validation -> Payment Gateway -> Event Bus (Order Created Event)",
+        "Event Bus -> Notification Service / Shipping Service"
+      ],
+      "database": [
+        "Users (id, email, hash, role, profile_data)",
+        "Products (id, sku, name, price, stock_count, attributes, category_id)",
+        "Orders (id, user_id, status, total_amount, metadata, created_at)",
+        "Payments (id, order_id, transaction_ref, status, provider)"
+      ],
+      "features": [
+        "Real-time inventory management with pessimistic locking",
+        "Distributed transaction support using Saga pattern for order fulfillment",
+        "Elasticsearch-powered full-text search with faceted navigation",
+        "Global CDN edge caching for static assets and product listing pages",
+        "Asynchronous order processing and email notification workflows"
+      ]
+    },
+    {
+      "userId": "local_1779342715149",
+      "id": 1779342791402,
+      "createdAt": "2026-05-21T05:53:11.402Z",
+      "title": "High-Scalability Distributed E-Commerce Architecture",
+      "description": "A microservices-based, event-driven architecture designed for high availability, transactional integrity, and global scale.",
+      "techStack": {
+        "frontend": [
+          "Next.js 14",
+          "TypeScript",
+          "Tailwind CSS",
+          "TanStack Query",
+          "Zustand"
+        ],
+        "backend": [
+          "Node.js (NestJS)",
+          "Go (Order Service)",
+          "Python (Recommendations)",
+          "gRPC",
+          "GraphQL"
+        ],
+        "database": [
+          "PostgreSQL (Relational)",
+          "Redis (Caching)",
+          "Elasticsearch (Search)",
+          "MongoDB (Product Catalog)"
+        ]
+      },
+      "architecture": [
+        "API Gateway (Kong/Ocelot)",
+        "Microservices (User, Cart, Order, Inventory, Payment)",
+        "Event Bus (Apache Kafka)",
+        "CDN (CloudFront/Cloudflare)",
+        "CI/CD Pipeline (GitHub Actions/ArgoCD)"
+      ],
+      "flow": [
+        "User Request -> API Gateway -> Auth Service",
+        "Order Placement -> Inventory Validation -> Payment Gateway -> Event Bus (Order Created Event)",
+        "Event Bus -> Notification Service / Shipping Service"
+      ],
+      "database": [
+        "Users (id, email, hash, role, profile_data)",
+        "Products (id, sku, name, price, stock_count, attributes, category_id)",
+        "Orders (id, user_id, status, total_amount, metadata, created_at)",
+        "Payments (id, order_id, transaction_ref, status, provider)"
+      ],
+      "features": [
+        "Real-time inventory management with pessimistic locking",
+        "Distributed transaction support using Saga pattern for order fulfillment",
+        "Elasticsearch-powered full-text search with faceted navigation",
+        "Global CDN edge caching for static assets and product listing pages",
+        "Asynchronous order processing and email notification workflows"
+      ]
+    },
+    {
+      "userId": "local_1779342715149",
+      "id": 1779342791618,
+      "createdAt": "2026-05-21T05:53:11.618Z",
+      "title": "High-Scalability Distributed E-Commerce Architecture",
+      "description": "A microservices-based, event-driven architecture designed for high availability, transactional integrity, and global scale.",
+      "techStack": {
+        "frontend": [
+          "Next.js 14",
+          "TypeScript",
+          "Tailwind CSS",
+          "TanStack Query",
+          "Zustand"
+        ],
+        "backend": [
+          "Node.js (NestJS)",
+          "Go (Order Service)",
+          "Python (Recommendations)",
+          "gRPC",
+          "GraphQL"
+        ],
+        "database": [
+          "PostgreSQL (Relational)",
+          "Redis (Caching)",
+          "Elasticsearch (Search)",
+          "MongoDB (Product Catalog)"
+        ]
+      },
+      "architecture": [
+        "API Gateway (Kong/Ocelot)",
+        "Microservices (User, Cart, Order, Inventory, Payment)",
+        "Event Bus (Apache Kafka)",
+        "CDN (CloudFront/Cloudflare)",
+        "CI/CD Pipeline (GitHub Actions/ArgoCD)"
+      ],
+      "flow": [
+        "User Request -> API Gateway -> Auth Service",
+        "Order Placement -> Inventory Validation -> Payment Gateway -> Event Bus (Order Created Event)",
+        "Event Bus -> Notification Service / Shipping Service"
+      ],
+      "database": [
+        "Users (id, email, hash, role, profile_data)",
+        "Products (id, sku, name, price, stock_count, attributes, category_id)",
+        "Orders (id, user_id, status, total_amount, metadata, created_at)",
+        "Payments (id, order_id, transaction_ref, status, provider)"
+      ],
+      "features": [
+        "Real-time inventory management with pessimistic locking",
+        "Distributed transaction support using Saga pattern for order fulfillment",
+        "Elasticsearch-powered full-text search with faceted navigation",
+        "Global CDN edge caching for static assets and product listing pages",
+        "Asynchronous order processing and email notification workflows"
+      ]
+    },
+    {
+      "userId": "local_1779342715149",
+      "id": 1779342790761,
+      "createdAt": "2026-05-21T05:53:10.761Z",
+      "title": "High-Scalability Distributed E-Commerce Architecture",
+      "description": "A microservices-based, event-driven architecture designed for high availability, transactional integrity, and global scale.",
+      "techStack": {
+        "frontend": [
+          "Next.js 14",
+          "TypeScript",
+          "Tailwind CSS",
+          "TanStack Query",
+          "Zustand"
+        ],
+        "backend": [
+          "Node.js (NestJS)",
+          "Go (Order Service)",
+          "Python (Recommendations)",
+          "gRPC",
+          "GraphQL"
+        ],
+        "database": [
+          "PostgreSQL (Relational)",
+          "Redis (Caching)",
+          "Elasticsearch (Search)",
+          "MongoDB (Product Catalog)"
+        ]
+      },
+      "architecture": [
+        "API Gateway (Kong/Ocelot)",
+        "Microservices (User, Cart, Order, Inventory, Payment)",
+        "Event Bus (Apache Kafka)",
+        "CDN (CloudFront/Cloudflare)",
+        "CI/CD Pipeline (GitHub Actions/ArgoCD)"
+      ],
+      "flow": [
+        "User Request -> API Gateway -> Auth Service",
+        "Order Placement -> Inventory Validation -> Payment Gateway -> Event Bus (Order Created Event)",
+        "Event Bus -> Notification Service / Shipping Service"
+      ],
+      "database": [
+        "Users (id, email, hash, role, profile_data)",
+        "Products (id, sku, name, price, stock_count, attributes, category_id)",
+        "Orders (id, user_id, status, total_amount, metadata, created_at)",
+        "Payments (id, order_id, transaction_ref, status, provider)"
+      ],
+      "features": [
+        "Real-time inventory management with pessimistic locking",
+        "Distributed transaction support using Saga pattern for order fulfillment",
+        "Elasticsearch-powered full-text search with faceted navigation",
+        "Global CDN edge caching for static assets and product listing pages",
+        "Asynchronous order processing and email notification workflows"
+      ]
+    },
+    {
+      "userId": "local_1779342715149",
+      "id": 1779343203232,
+      "createdAt": "2026-05-21T06:00:03.232Z",
+      "title": "High-Scalability Distributed E-Commerce Architecture",
+      "description": "A microservices-based, event-driven e-commerce platform designed for high concurrency, eventual consistency, and elastic scaling.",
+      "techStack": {
+        "frontend": [
+          "Next.js",
+          "TypeScript",
+          "TailwindCSS",
+          "Zustand",
+          "React Query"
+        ],
+        "backend": [
+          "Node.js (NestJS)",
+          "Go (Order/Inventory Service)",
+          "Redis",
+          "Apache Kafka"
+        ],
+        "database": [
+          "PostgreSQL (Relational)",
+          "MongoDB (Product Catalog)",
+          "Redis (Caching)",
+          "Elasticsearch (Search)"
+        ]
+      },
+      "architecture": [
+        "API Gateway (Kong)",
+        "Identity Microservice (Auth0/JWT)",
+        "Product Catalog Microservice (CQRS pattern)",
+        "Order Management System (Event-driven)",
+        "Payment Gateway Integration (Stripe)",
+        "Inventory Service (Distributed Locking)",
+        "Notification Service (WebSockets/SES)"
+      ],
+      "flow": [
+        "User Action -> API Gateway -> Load Balancer",
+        "Order Placement -> Inventory Validation (Event) -> Order Service -> Payment Service",
+        "Payment Confirmation -> Update Inventory -> Trigger Shipping -> Notify User"
+      ],
+      "database": [
+        "Users (id, email, password_hash, profile_metadata)",
+        "Products (id, sku, name, price, stock_count, category_id, attributes_json)",
+        "Orders (id, user_id, status, total_amount, payment_id, created_at)",
+        "Order_Items (id, order_id, product_id, quantity, unit_price)"
+      ],
+      "features": [
+        "Real-time inventory synchronization using distributed locks (Redis)",
+        "Elasticsearch-powered faceted search and recommendation engine",
+        "Event-driven architecture using Kafka for decoupled order processing",
+        "CDN-backed static asset delivery with edge computing for geo-localization",
+        "Multi-tenant support with PostgreSQL row-level security"
+      ]
+    },
+    {
+      "userId": "local_1779344577643",
+      "id": 1779344618180,
+      "createdAt": "2026-05-21T06:23:38.180Z",
+      "title": "QuickBite: Beginner-Friendly Food Delivery System",
+      "description": "A streamlined architecture for browsing menus, placing orders, and tracking delivery status.",
+      "techStack": {
+        "frontend": [
+          "React",
+          "Tailwind CSS"
+        ],
+        "backend": [
+          "Node.js",
+          "Express"
+        ],
+        "database": [
+          "PostgreSQL"
+        ]
+      },
+      "architecture": [
+        "Client-side SPA (Single Page Application)",
+        "RESTful API Server",
+        "Relational Database"
+      ],
+      "flow": [
+        "User browses menu -> Adds items to cart",
+        "Cart submitted -> Order created in DB",
+        "Order status updated by delivery agent -> UI reflects change"
+      ],
+      "database": [
+        "Users (id, name, email, password, address)",
+        "Restaurants (id, name, description)",
+        "MenuItems (id, restaurant_id, name, price)",
+        "Orders (id, user_id, restaurant_id, total, status)"
+      ],
+      "features": [
+        "Menu listing with categorized food items",
+        "Cart management for order construction",
+        "Order status tracking (Pending, Preparing, Out for Delivery)"
+      ]
+    },
+    {
+      "userId": "local_1779344577643",
+      "id": 1779345759904,
+      "createdAt": "2026-05-21T06:42:39.904Z",
+      "title": "Real-time Instant Messaging Platform",
+      "description": "A scalable real-time chat application featuring user authentication, private messaging, and persistent storage.",
+      "techStack": {
+        "frontend": [
+          "React",
+          "Tailwind CSS",
+          "Socket.io-client"
+        ],
+        "backend": [
+          "Node.js",
+          "Express",
+          "Socket.io"
+        ],
+        "database": [
+          "PostgreSQL",
+          "Redis"
+        ]
+      },
+      "architecture": [
+        "Client-side SPA",
+        "REST API Gateway",
+        "WebSocket Signaling Server",
+        "Relational Database Store"
+      ],
+      "flow": [
+        "User authentication via JWT",
+        "Client establishes WebSocket connection",
+        "Message sent to WebSocket server",
+        "Server saves message to PostgreSQL",
+        "Server broadcasts message to recipient"
+      ],
+      "database": [
+        "Users (id, username, password_hash, created_at)",
+        "Messages (id, sender_id, receiver_id, content, timestamp)"
+      ],
+      "features": [
+        "User registration and secure login",
+        "Real-time one-on-one private messaging",
+        "Message history persistence"
+      ]
+    },
+    {
+      "userId": "local_1779347355666",
+      "id": 1779347373113,
+      "createdAt": "2026-05-21T07:09:33.113Z",
+      "title": "Real-time Instant Messaging Platform",
+      "description": "A scalable real-time chat application featuring user authentication, private messaging, and persistent storage.",
+      "techStack": {
+        "frontend": [
+          "React",
+          "Tailwind CSS",
+          "Socket.io-client"
+        ],
+        "backend": [
+          "Node.js",
+          "Express",
+          "Socket.io"
+        ],
+        "database": [
+          "MongoDB",
+          "Redis"
+        ]
+      },
+      "architecture": [
+        "Client-side SPA",
+        "WebSocket Gateway",
+        "REST API Service",
+        "NoSQL Document Store",
+        "In-memory Cache"
+      ],
+      "flow": [
+        "Client A initiates connection to WebSocket server",
+        "Client A sends message payload to server",
+        "Server validates token and persists message to MongoDB",
+        "Server emits message event to Client B via WebSocket",
+        "Client B receives and updates UI in real-time"
+      ],
+      "database": [
+        "Users (id, username, password_hash, created_at)",
+        "Messages (id, sender_id, receiver_id, content, timestamp, status)"
+      ],
+      "features": [
+        "User authentication via JWT",
+        "Real-time message delivery using WebSockets",
+        "Message history persistence and retrieval"
+      ]
+    },
+    {
+      "userId": "local_1779347355666",
+      "id": 1779347391745,
+      "createdAt": "2026-05-21T07:09:51.745Z",
+      "title": "Real-time Instant Messaging Platform",
+      "description": "A scalable real-time chat application featuring user authentication, private messaging, and persistent storage.",
+      "techStack": {
+        "frontend": [
+          "React",
+          "Tailwind CSS",
+          "Socket.io-client"
+        ],
+        "backend": [
+          "Node.js",
+          "Express",
+          "Socket.io"
+        ],
+        "database": [
+          "MongoDB",
+          "Redis"
+        ]
+      },
+      "architecture": [
+        "Client-side SPA",
+        "WebSocket Gateway",
+        "REST API Service",
+        "NoSQL Document Store",
+        "In-memory Cache"
+      ],
+      "flow": [
+        "Client A initiates connection to WebSocket server",
+        "Client A sends message payload to server",
+        "Server validates token and persists message to MongoDB",
+        "Server emits message event to Client B via WebSocket",
+        "Client B receives and updates UI in real-time"
+      ],
+      "database": [
+        "Users (id, username, password_hash, created_at)",
+        "Messages (id, sender_id, receiver_id, content, timestamp, status)"
+      ],
+      "features": [
+        "User authentication via JWT",
+        "Real-time message delivery using WebSockets",
+        "Message history persistence and retrieval"
+      ]
+    },
+    {
+      "userId": "local_1779347355666",
+      "id": 1779347786112,
+      "createdAt": "2026-05-21T07:16:26.112Z",
+      "title": "Real-Time Chat Application Architecture",
+      "description": "A scalable real-time messaging system utilizing WebSockets for instant communication.",
+      "techStack": {
+        "frontend": [
+          "React",
+          "Tailwind CSS",
+          "Socket.io-client"
+        ],
+        "backend": [
+          "Node.js",
+          "Express",
+          "Socket.io"
+        ],
+        "database": [
+          "MongoDB",
+          "Redis"
+        ]
+      },
+      "architecture": [
+        "Client-side SPA",
+        "WebSocket Server",
+        "REST API",
+        "NoSQL Database"
+      ],
+      "flow": [
+        "Client A connects to WebSocket Server",
+        "Client A sends message via WebSocket",
+        "Server broadcasts message to Client B",
+        "Server persists message to MongoDB"
+      ],
+      "database": [
+        "Users (id, username, email, password_hash)",
+        "Messages (id, sender_id, recipient_id, content, timestamp)"
+      ],
+      "features": [
+        "Real-time one-on-one messaging using WebSockets",
+        "User authentication and session management",
+        "Message history persistence and retrieval"
+      ]
+    },
+    {
+      "userId": "local_1779344577643",
+      "id": 1779347915137,
+      "createdAt": "2026-05-21T07:18:35.137Z",
+      "title": "Scalable Multi-Tenant Food Delivery Architecture",
+      "description": "A microservices-based food delivery system designed for high concurrency, real-time tracking, and efficient order orchestration.",
+      "techStack": {
+        "frontend": [
+          "React Native",
+          "Redux Toolkit",
+          "React Query"
+        ],
+        "backend": [
+          "Node.js (NestJS)",
+          "Go (Order Service)",
+          "Redis (Pub/Sub)",
+          "Socket.io"
+        ],
+        "database": [
+          "PostgreSQL",
+          "MongoDB",
+          "Redis"
+        ]
+      },
+      "architecture": [
+        "API Gateway (Kong)",
+        "Identity Microservice",
+        "Order Management Microservice",
+        "Restaurant & Catalog Service",
+        "Courier Dispatch & Location Service",
+        "Payment Processing Service"
+      ],
+      "flow": [
+        "Customer places order -> Order Service validates -> Payment Gateway authorization",
+        "Order Service creates record -> Restaurant notified via WebSocket",
+        "Restaurant accepts order -> Courier dispatch algorithm identifies nearby driver",
+        "Courier accepts -> Live location tracking via Socket.io updates customer app"
+      ],
+      "database": [
+        "Users (id, role, email, password_hash, location_lat, location_lng)",
+        "Restaurants (id, name, menu_data, rating, owner_id)",
+        "Orders (id, customer_id, restaurant_id, status, items_json, total_price, courier_id)",
+        "Deliveries (id, order_id, courier_id, current_lat, current_lng, status)"
+      ],
+      "features": [
+        "Real-time order tracking using WebSocket bi-directional communication",
+        "Geospatial queries for restaurant discovery and courier dispatching",
+        "Transactional consistency using Saga pattern for order-payment orchestration"
+      ]
+    }
+  ],
+  "feedback": [
+    {
+      "userId": "local_1779344577643",
+      "userName": "main",
+      "rating": 4,
+      "comment": "i love it",
+      "createdAt": "2026-05-21T06:44:41.423Z"
+    },
+    {
+      "userId": "local_1779344577643",
+      "userName": "main",
+      "rating": 2,
+      "comment": "asfaf",
+      "createdAt": "2026-05-21T07:00:43.825Z"
+    }
+  ]
+}
